@@ -2,6 +2,8 @@
 
 @section('content')
     <body>
+    <a href="/login">Login</a>
+    <a href="/register">Register</a>
     <?php foreach ($posts as $post) : ?>
 
     <article>
